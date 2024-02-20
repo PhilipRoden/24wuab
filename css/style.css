@@ -37,7 +37,7 @@ header{
     flex-direction: row;
 }
 nav {
-    background-color: rgba(0, 255, 255, 0.823);
+    background-color: rgb(210, 210, 210);
     display: flex;
     align-items: center;
     justify-self: end;
