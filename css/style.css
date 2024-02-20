@@ -1,20 +1,17 @@
 #wrapper1 {
     display: grid;
     height: calc(100vh);
-    grid-template-rows: 10% 8% 70% 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 10% 70% 1fr;
+    grid-template-columns: 15%, 1fr;
     grid-template-areas:
-    'hd hd'
-    'nv nv'
-    'mi mi'
-    'ft ft'
-}
-img{
-    filter: grayscale(20%);
+    'hd'
+    'mi '
+    'ft'
 }
 .title{
+    padding: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 body{
     background-color: lightskyblue;
@@ -22,24 +19,33 @@ body{
 }
 section{
     padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .im1{
-    width: 100%;
+    width: 90%;
     height: 100%;
+    border-radius: 40%;
 }
 
 header{
     grid-area: hd;
     background-color: rgb(210, 210, 210);
     color: rgba(0, 0, 255, 0.734);
+    display: flex;
+    flex-direction: row;
 }
-nav{
-    grid-area: nv;
+nav {
     background-color: rgba(0, 255, 255, 0.823);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-self: end;
+    margin-left: auto;
+    flex-direction: row;
+    padding: 8px;
+    justify-content: space-between;
+    width: 1000px;
 }
 footer{
     grid-area: ft;
@@ -51,8 +57,8 @@ footer{
     place-items: center;
     background-color: rgba(255, 255, 0, 0.766);
     height:  50px;
-    width: 110px;
-    border-radius: 10px;
+    width: 115px;
+    border-radius: 20px;
 }
 .text{
     padding: 5px;
