@@ -11,11 +11,12 @@
 #wrapper3 {
     display: grid;
     height: calc(100vh);
-    grid-template-rows: 10% 1fr 8%;
-    grid-template-columns: 15%, 1fr;
+    grid-template-rows: 10% 400px 500px 8%;
+    grid-template-columns: 1fr;
     grid-template-areas:
     'hd'
-    'mi'
+    'mi3'
+    'dmi3'
     'ft'
 }
 #wrapper2 {
@@ -34,6 +35,25 @@ body{
     padding: 5px;
     display: flex;
     justify-content: center;
+}
+.section3{
+    grid-area: mi3;
+    display: flex;
+    justify-content: center;
+    
+}
+article{
+    grid-area: dmi3;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: brown;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+
+}
+.modell_train_pic{
+    object-fit: contain;
 }
 .section2{
     padding: 20px;
