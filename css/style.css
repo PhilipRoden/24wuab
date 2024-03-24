@@ -47,7 +47,8 @@ aside{
     justify-content: center;
 }
 .title{
-    padding: 1px;
+    padding: 4px;
+    border-radius: 20px;
     display: flex;
     justify-content: start;
 }
@@ -206,4 +207,7 @@ h3{
     font-size: 1em;
     color: #85E5D1
 
+}
+img{
+    filter: saturate(1);
 }
