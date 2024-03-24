@@ -39,7 +39,7 @@
 }
 aside{
     grid-area: as;
-    background-color: blueviolet;
+    color: #85E5D1;
     padding: 5px;
 }
 .article2{
@@ -47,17 +47,17 @@ aside{
     justify-content: center;
 }
 .title{
-    padding: 8px;
+    padding: 1px;
     display: flex;
     justify-content: start;
 }
 body{
-    background-color: lightskyblue;
+    background-color: #227AB5;
     margin: 0px;
 }
 .section1{
     grid-area: mi;
-    padding: 5px;
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
@@ -73,8 +73,9 @@ body{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: brown;
+    background-color: #324E60;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    color: #85E5D1;
 
 }
 .modell_train_pic{
@@ -96,8 +97,8 @@ body{
 
 header{
     grid-area: hd;
-    background-color: rgb(210, 210, 210);
-    color: rgba(0, 0, 255, 0.734);
+    background-color: #336282;
+    color: #85E5D1;
     display: flex;
     flex-direction: row;
     height: 64px;
@@ -105,7 +106,7 @@ header{
 
 }
 nav {
-    background-color: rgb(210, 210, 210);
+    background-color: #336282;
     display: flex;
     align-items: center;
     justify-self: end;
@@ -117,30 +118,36 @@ nav {
 }
 footer{
     grid-area: ft;
-    background-color: grey;
+    background-color: #2C3033;
     padding: 5px;
 }
 .button{
     display: grid;
     place-items: center;
-    background-color: rgba(255, 255, 0, 0.766);
+    background-color: #227AB5;
     height:  50px;
-    width: 115px;
+    width: 120px;
     border-radius: 20px;
 }
 .text{
     padding: 5px;
 }
 p{
-    color: white;
-    font-family: fantasy;
-    font-size: 20px;
+    color: #85E5D1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #85E5D1
 }
 h2{
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #85E5D1
 }
 h3{
-    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #85E5D1
 }
 
 .card {
@@ -157,7 +164,8 @@ h3{
   
   .container {
     padding: 2px 16px;
-    background-color: red;
+    background-color: #2C3033;
+    color: #85E5D1;
   }
   .imt1{
     border-radius: 5px 5px 0 0;
@@ -167,6 +175,8 @@ h3{
     padding: 20px;
     margin: auto;
     text-align: center;
+    color: #85E5D1
+
 }
 .community-card {
     display: flex;
@@ -176,7 +186,9 @@ h3{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    background-color: aqua;
+    background-color: #252F36;
+    color: #85E5D1
+
 }
 .community-card img {
     width: 100%;
@@ -187,8 +199,11 @@ h3{
 .info h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: #85E5D1
+
 }
 .info p {
     font-size: 1em;
-    color: #555;
+    color: #85E5D1
+
 }
