@@ -1,26 +1,43 @@
 #wrapper1 {
     display: grid;
     height: calc(100vh);
-    grid-template-rows: 10% 1fr 8%;
-    grid-template-columns: 15%, 1fr;
+    grid-template-rows: 10% auto 8%;
+    grid-template-columns: 6% 1fr;
     grid-template-areas:
-    'hd'
-    'mi'
-    'ft'
+    'hd hd'
+    'as mi'
+    'ft ft'
 }
 #wrapper3 {
     display: grid;
     height: calc(100vh);
-    grid-template-rows: 10% 400px 500px 8%;
-    grid-template-columns: 1fr;
+    grid-template-rows: 64px 400px 500px 8%;
     grid-template-areas:
     'hd'
     'mi3'
     'dmi3'
     'ft'
 }
+aside{
+    grid-area: as;
+}
 #wrapper2 {
-    
+    display: grid;
+    height: calc(100vh);
+    grid-template-rows: 10% 6% 1fr 8%;
+    grid-template-areas:
+    'hd'
+    'ar2'
+    'mi2'
+    'ft'
+}
+.article2{
+    display: flex;
+    justify-content: center;
+}
+.vertical-text {
+    writing-mode: vertical-rl; /* Vertical text orientation */
+    transform: rotate(180deg); /* Rotate the text to make it vertical */
 }
 .title{
     padding: 8px;
@@ -32,6 +49,7 @@ body{
     margin: 0px;
 }
 .section1{
+    grid-area: mi;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -42,7 +60,7 @@ body{
     justify-content: center;
     
 }
-article{
+.article1{
     grid-area: dmi3;
     padding: 5px;
     display: flex;
@@ -53,9 +71,10 @@ article{
 
 }
 .modell_train_pic{
-    object-fit: contain;
+    object-fit: fill;
 }
 .section2{
+    grid-area: mi2;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -64,8 +83,8 @@ article{
 
 .im1{
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    overflow: hidden;
     border-radius: 40%;
 }
 
@@ -108,6 +127,8 @@ footer{
 }
 p{
     color: white;
+    font-family: fantasy;
+    font-size: 20px;
 }
 h2{
     color: white;
@@ -121,6 +142,7 @@ h3{
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
     height: 200px;
+    background-color: black;
     aspect-ratio: 1;
   }
   
