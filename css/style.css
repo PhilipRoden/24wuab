@@ -116,7 +116,7 @@ nav {
     padding: 8px;
     justify-content: space-between;
     width: 1000px;
-    font-size:1rem
+    font-size:1rem;
 }
 footer{
     grid-area: ft;
@@ -143,8 +143,8 @@ p{
 h1{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;    ¨
-    color: #85E5D1
+    font-style: normal;
+    color: #85E5D1;
 }
 h2{
     font-family: "Roboto", sans-serif;
@@ -225,3 +225,4 @@ h4{
 img{
     filter: saturate(1);
 }
+
